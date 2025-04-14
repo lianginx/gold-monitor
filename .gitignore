@@ -1,0 +1,6 @@
+.venv/
+logs/*
+.env
+
+# macOS
+.DS_Store

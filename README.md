@@ -1,11 +1,21 @@
 # 金价监控
 
-每小时抓取中国上海黄金交易所交易数据，支持通过 [Dark](https://github.com/finb/bark) 推送到 iOS 设备。
+每小时抓取中国上海黄金交易所交易数据，支持通过 [Bark](https://github.com/finb/bark) 推送到 iOS 设备。
 
 ## 安装依赖
 
 ```bash
 pip3 install -r requirements.txt
+```
+
+## 配置 Bark Key
+
+```bash
+# 拷贝配置文件
+cp .env.example .env
+
+# 编辑配置文件
+BARK_KEY="你的 Bark Key"
 ```
 
 ## 启动与管理命令
